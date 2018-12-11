@@ -16,3 +16,10 @@ logger.info('My message in logger')
 
 time.sleep(1.5)
 logger.info('My 2nd message in logger')
+
+# 'application' code
+logger.debug('debug message')
+logger.info('info message')
+logger.warn('warn message')
+logger.error('error message')
+logger.critical('critical message')
